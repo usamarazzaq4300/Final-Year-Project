@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-4.0.0\bootstrap-4.0.0\dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Property Portal</title>
 </head>
 
@@ -25,11 +26,11 @@
                 </ul>
             </div>
         </div>
-        <div class="row" style="margin-bottom:10px;">
+        <div class="row" style="margin-bottom:5pxpx;">
             <div class="col-6" style="padding-top: 15px;">
                 <img id="logo" src="images/logo.png" alt="">
             </div>
-            <div class="col-6" style="padding-top: 25px;">
+            <div class="col-6" style="padding-top: 20px;">
                 <ul>
                     <li class="secondList">Sell</li>
                     <li class="secondList">Rent</li>
@@ -41,7 +42,7 @@
         </div>
     </div>
     <!-- BackGround Image and Forms -->
-    <div class="container-fluid" style="background:url(images/search-bg.jpg)">
+    <div class="container-fluid" style="background:url(images/search-bg.jpg);opacity: 1;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -50,26 +51,27 @@
                 </div>
             </div>
             <div class="row" style="margin-top: 40px;">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <form action="">
-                        <label>
-                            <input class="radio" type="radio" value="For Sale" name="Property">
-                            <span class="aboutRadio">For Sale</span>
-                        </label>
-                        <label>
-                            <input class="radio" type="radio" value="To Rent" name="Property">
-                            <span class="aboutRadio">To Rent</span>
-                        </label>
-                        <label>
-                            <input class="radio" type="radio" value="Wanted" name="Property">
-                            <span class="aboutRadio">Wanted</span>
-                        </label>
-                    </form>
+                <div class="col-3"></div>
+                <div class="col-6">
+                   <label class="radio">
+                       <input type="radio" value="For Sale" name="property Category">
+                       For Sale
+                       <span></span>
+                   </label>
+                   <label class="radio">
+                    <input type="radio" value="To Rent" name="property Category">
+                    To Rent
+                    <span></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" value="Wanted" name="property Category">
+                    Wanted
+                    <span></span>
+                </label>
                 </div>
-                <div class="col-2"></div>
+                <div class="col-3"></div>
             </div>
-            <div class="row" style="margin-top: 40px; padding-bottom: 30px;">
+            <div class="row" style="margin-top: 70px; padding-bottom: 30px;">
                 <div class="col-6">
                     <input class="first" type="text" placeholder="Property Location">
                 </div>
@@ -111,7 +113,7 @@
                     </select> 
                 </div>
             </div>
-            <div class="row" style="margin-top:30px; padding-bottom: 60px;">
+            <div class="row" style="margin-top:30px; padding-bottom: 80px;">
                 <div class="col-12" style="text-align: center;">
                     <button id="button">FIND PROPERTY</button>
                 </div>
@@ -176,7 +178,18 @@
     <!-- Footer -->
     <div class="container-fluid" style="background: url(images/footer-bg.jpg);">
         <div class="container">
-            <div class="row" style="padding-top:40px">
+            <div class="row">
+                <p style="visibility: hidden;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsum aspernatur. Rem eius aspernatur doloribus sit, dolores laudantium autem vero. Quidem iure dolorum ad optio soluta laudantium maxime laboriosam culpa.
+                Quasi pariatur aut, molestias atque dolorum itaque veritatis perferendis earum corrupti doloremque inventore est nesciunt dolorem repudiandae corporis repellendus facere ducimus at, illo cumque. Quas, natus. Dolorum fuga officia dolorem.
+                Asperiores dolores, ipsa recusandae cum aspernatur perspiciatis quibusdam optio, beatae culpa dolorem nulla modi eum nam nostrum rerum facilis, dolore doloribus doloremque laboriosam exercitationem mollitia! Maxime ex repudiandae repellendus vitae?
+                Repellendus perferendis, hic dolor ab dolores autem iure dolorem eius sapiente, est neque ipsam dicta, amet velit. Odio, rerum accusantium explicabo enim autem deserunt facere aperiam omnis, eaque impedit perferendis?
+                Laborum libero velit rem voluptate nobis! Veritatis necessitatibus id quasi exercitationem rem labore corporis distinctio similique maiores beatae deleniti porro voluptate adipisci nihil, mollitia dolores. Dolorem quasi atque quo porro?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color:rgb(219, 219, 219); margin-top: -12px;">
+        <div class="container">
+            <div class="row" style="padding-top:40px;">
                     <div class="col-9">
                         <ul>
                             <li style="display: block;"><h5>Useful Links</h5></li>
@@ -212,12 +225,30 @@
                     </ul>
                 </div>
                 <div class="col-3" style="padding-top: 10px;">
+                    <i style="cursor: pointer;" class="fab fa-facebook-square"></i>
+                    <i style="cursor: pointer;" class="fab fa-twitter-square"></i>
+                    <i style="cursor: pointer;" class="fab fa-instagram-square"></i>
+                    <i style="cursor: pointer;" class="fab fa-paypal"></i>
+                    
                 </div>
             </div>
         </div>
-
     </div>
-   
 </body>
 
 </html>
+
+<!-- <form action="">
+    <label>
+        <input class="radio" type="radio" value="For Sale" name="Property">
+        <span class="aboutRadio">For Sale</span>
+    </label>
+    <label>
+        <input class="radio" type="radio" value="To Rent" name="Property">
+        <span class="aboutRadio">To Rent</span>
+    </label>
+    <label>
+        <input class="radio" type="radio" value="Wanted" name="Property">
+        <span class="aboutRadio">Wanted</span>
+    </label>
+</form> -->

@@ -76,14 +76,13 @@
                     <input class="first" type="text" placeholder="Property Location">
                 </div>
                 <div class="col-6">
-                   <select class="first" name="property Type" placeholder="Propeerty Type">
-                       <option value="House">Property Type</option>
-                       <option value="House">Flats</option>
-                       <option value="House">Farm House</option>
-                       <option value="House">Residential Plots</option>
-                       <option value="House">Commercial Plots</option>
-                       <option value="House">Shops</option>
-
+                   <select id="ddselect" onchange="hideForms()" name="property Type" placeholder="Propeerty Type">
+                       <option value="null">Property Type</option>
+                       <option value="flats">Flats</option>
+                       <option value="farmhouse">Farm House</option>
+                       <option value="residentialplots">Residential Plots</option>
+                       <option value="commercialplots">Commercial Plots</option>
+                       <option value="shops">Shops</option>
                    </select>
                 </div>
             </div>
@@ -228,14 +227,18 @@
                     <i style="cursor: pointer;" class="fab fa-facebook-square"></i>
                     <i style="cursor: pointer;" class="fab fa-twitter-square"></i>
                     <i style="cursor: pointer;" class="fab fa-instagram-square"></i>
-                    <i style="cursor: pointer;" class="fab fa-paypal"></i>
-                    
+                    <i style="cursor: pointer;" class="fab fa-paypal"></i>   
                 </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" style="text-align: center; background-color: #CECECE; padding: 8px;">Copyright &copy; 2021 Property Portal. All rights are reserved.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
 
 <!-- <form action="">

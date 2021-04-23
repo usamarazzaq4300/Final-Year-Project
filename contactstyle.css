@@ -1,0 +1,19 @@
+.form
+{
+    width: 55%;
+    height: 140%;
+    outline: 0;
+    border: 2px solid rgb(226,226,226);
+    color: rgb(226,226,226);
+    padding-left: 8px;
+}
+#send
+{
+    color: rgb(226,226,226);
+    background-color:rgb(89,197,23) ;
+    text-align: center;
+    padding: 5px 10px;
+    border: 2px solid rgb(89,197,23);
+    border-radius: 4px;
+    outline: 0;
+}

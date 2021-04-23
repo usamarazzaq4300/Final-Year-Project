@@ -13,9 +13,10 @@
 }
 .postlink
 {
-    color: white;
+    color:white;
     padding-left: 35px;
-    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .postlink:hover
 {
@@ -26,6 +27,7 @@
 {
     padding-left: 20px;
     cursor: pointer;
+    padding-bottom: 5px;
 }
 .secondList
 {
@@ -148,4 +150,16 @@
 {
     display: block;
     cursor:pointer
+}
+/* About Page */
+.aboutHeading
+{
+    font-size: 36px;
+    color: #272e68;
+}
+.aboutpara
+{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
 }
